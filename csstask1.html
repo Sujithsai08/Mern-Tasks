@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK 1</title>
+    <style>
+        table{
+            background-color:rgb(40,160,150);
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        th,td{
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 3px;
+        }
+        .container{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(3,120px);
+            grid-template-rows: repeat(3,120px);
+            justify-content: center;
+            align-content: center;
+
+        }
+        .box{
+            border: 3px solid rgb(109,197,9);
+            width: 80px;
+            height: 80px;
+        }
+        #box1{
+            margin: 10px;
+            width: 100px;
+            height: 70px;
+            border-radius: 5%;
+        }
+        #box2{
+            margin: 10px;
+            width: 100px;
+            height: 70px;
+            border-radius: 10%;
+        }
+        #box3{
+            margin: 10px;
+            width: 100px;
+            height: 70px;
+            border-radius: 25%;
+        }
+        #box4{
+            margin: 10px;
+            width: 100px;
+            height: 70px;
+            border-radius: 10%;
+        }
+        #box5{
+            margin: 10px;
+            width: 100px;
+            height: 70px;
+            border-radius: 1%;
+        }
+        #box6{
+            margin: 10px;
+            width: 100px;
+            height: 70px;
+            border-radius: 25%;
+        }
+        #box7{
+            margin: 10px;
+            width: 100px;
+            height: 70px;
+            border-radius: 50%;
+        }
+        #box8{
+            margin: 10px;
+            width: 100px;
+            height: 70px;
+            border-radius: 3%;
+        }
+        #box9{
+            margin:10px;
+            width: 100px;
+            height:70px;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 15%;
+            border-bottom-left-radius: 30%;
+            border-bottom-right-radius: 9%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <th>FirstName</th>
+            <th> Lastname</th>
+            <th>Age</th>
+
+        </tr>
+        <tr>
+            <td>jill </td>
+            <td>smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>eve</td>
+            <td>jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>john</td>
+            <td>doe</td>
+            <td>80</td>
+        </tr>
+        
+    </table>
+    <div class="container">
+        <div class="box" id="box1"> </div>
+        <div class="box" id="box2"> </div>
+        <div class="box" id="box3"> </div>
+        <div class="box" id="box4"> </div>
+        <div class="box" id="box5"> </div>
+        <div class="box" id="box6"> </div>
+        <div class="box" id="box7"> </div>
+        <div class="box" id="box8"> </div>
+        <div class="box" id="box9"> </div>
+    </div>
+    
+</body>
+</html>

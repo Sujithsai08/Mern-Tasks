@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TASK 5</title>
+    <style>
+        .center{
+            text-align: center;
+            color: blue;
+
+        }
+        table{
+            border-collapse: collapse;
+            width: 60%;
+            margin: auto;
+        }
+        th,td{
+            padding: 3px;
+            margin: 0;
+            border: 2px solid black;
+        }
+        .intype{
+            width: 98%;
+
+        }
+        textarea{
+            width: 98%;
+        }
+        select{
+            width: 158px;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+
+</head>
+<body>
+
+        <form>
+            <h2 class="center">Registartion form</h2>
+            <table>
+            <tr>
+                <th>First Name </th>
+                <td>
+                    <input type="text" class="intype">
+                </td>
+
+            </tr>
+            <tr>
+                <th>Last Name </th>
+                <td>
+                    <input type="text" class="intype">
+                </td>
+            </tr>
+            <tr>
+                <th>Email </th>
+                <td>
+                    <input type="email" class="intype">
+                </td>
+
+            </tr>
+            <tr>
+                <th>Password </th>
+                <td>
+                    <input type="password"class="intype">
+                </td>
+
+            </tr>
+            <tr>
+                <th>Re-enter Password</th>
+                <td>
+                    <input type="password"class="intype">
+
+                </td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <input type="radio" name="gender " value="male">Male<br>
+                    <input type="radio" name="gender" value="female">Female<br>
+                </td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>
+                    <input type="number"class="intype">
+                </td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td>
+                    <input type="tel"class="intype">
+                </td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td>
+                    <textarea id="comments" name="comments" rows="5" cols="20">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td>
+                    <input type="text"class="intype">
+                </td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>
+                    <select name="country">
+                        <option value="India">choose your country</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Languages Known </th>
+                <td>
+                    <label><input type="checkbox">English</label>
+                    <label><input type="checkbox">Kannada</label>
+                    <label><input type="checkbox">Hindi</label>
+                    <label><input type="checkbox">Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <label> <input type="checkbox">Hereby I declare all the given details are true</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right;">Log in to <a href="http://codemitra.com/">Ethnus </a>website </td>
+            </tr>
+        </table>
+
+        </form>
+        <button style="padding: 2px;width: 100px ;margin: 20px auto;">Register</button>
+    
+
+    
+</body>
+</html>
